@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+    <div class="chat-app">
+        <div class="sidebar">
+            <h2>Restaurant Chat</h2>
+            <div class="chat-list" id="users">
+                <div class="chat-item active">
+                    <div class="chat-preview">Welcome to our restaurant!</div>
+                    <div class="chat-time">Today</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-window">
+            <div class="chat-header">
+                <h3>Customer Support</h3>
+            </div>
+            
+            <div class="chat-messages" id="msgs">
+                <!-- Messages will be added here -->
+            </div>
+            
+            <div class="chat-input">
+                <form id="chatForm">
+                    <textarea id="msg" placeholder="Type your message here..."></textarea>
+                    <button id="sendBtn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

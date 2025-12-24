@@ -1,0 +1,9 @@
+{
+    "fallbacks": [
+        "Entschuldigung, ich habe das nicht verstanden. Könnten Sie das anders formulieren?",
+        "Das habe ich nicht ganz verstanden. Fragen Sie nach unserer Speisekarte oder Öffnungszeiten.",
+        "Ich bin mir nicht sicher, was Sie meinen. Wie kann ich Ihnen helfen?",
+        "Könnten Sie Ihre Frage bitte anders stellen?",
+        "Möchten Sie einen Tisch reservieren oder etwas über unser Menü wissen?"
+    ]
+}

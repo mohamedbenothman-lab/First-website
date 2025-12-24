@@ -1,0 +1,10 @@
+{ "answers" :[
+    {"intent":"bestellen", "answer":"Sie wollen eine Bestellung aufgeben. Was möchten Sie bestellen? Als Getränk haben wir Fanta und Cola"},
+    {"intent":"aufgeben", "answer":"Sie wollen eine Bestellung aufgeben. Was möchten Sie bestellen? Getränk"},
+    {"intent":"bestellung", "answer":"Sie wollen eine Bestellung aufgeben. Was möchten Sie bestellen? Fangen wir mit Getränken an: Cola oder Fanta?"},
+    {"intent":"cola", "answer":"Ich habe Cola notiert. Sie kostet 1€, möchten Sie noch ein Getränk bestellen"},
+    {"intent":"fanta", "answer":"Ich habe Fanta notiert. Sie kostet 1€, möchten Sie noch ein Getränk bestellen"},
+    {"intent":"gericht", "answer":"Sie möchten ein Gericht bestellen. Ich habe folgende Gerichte zur Auswahl"}
+
+  ]
+}

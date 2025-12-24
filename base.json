@@ -1,0 +1,99 @@
+{
+    "suche": {
+        "patterns": ["suche", "finden", "wo ist", "wo gibt es", "kann ich finden", "gibt es hier", "habt ihr"],
+        "responses": ["Wenn Sie etwas suchen, können wir Ihnen vielleicht helfen. Fragen Sie nach unserem Menü oder Spezialitäten."]
+    },
+    "reservieren": {
+        "patterns": [
+            "reservieren", 
+            "tisch buchen",
+            "tisch reservieren",
+            "ich möchte einen tisch",
+            "platz buchen",
+            "buchung",
+            "tisch für [0-9] personen",
+            "tisch am [0-9] uhr",
+            "kann ich reservieren",
+            "möchte buchen"
+        ],
+        "responses": [
+            "Gerne! Lassen Sie uns die Details klären."
+        ]
+    },
+    "rauche": {
+        "patterns": ["rauche", "rauchen", "zigarette", "tabak", "dampfen", "raucherbereich"],
+        "responses": ["Rauchen ist in unserem Restaurant nicht gestattet. Wir haben einen schönen Außenbereich für Raucher."]
+    },
+    "trinke": {
+        "patterns": ["trinke", "getränk", "wein", "bier", "cocktail", "trinken", "alkoholfrei", "softdrink"],
+        "responses": ["Wir haben eine große Auswahl an Getränken. Möchten Sie unsere Weinkarte sehen?"]
+    },
+    "allergien": {
+        "patterns": ["allergien", "gluten", "laktose", "nüsse", "allergisch", "unverträglich"],
+        "responses": ["Wir kennzeichnen alle Allergene in unserer Speisekarte."]
+    },
+    "vegetarisch": {
+        "patterns": ["vegetarisch", "vegan", "pflanzlich", "fleischlos", "ohne fleisch"],
+        "responses": ["Wir haben mehrere vegetarische und vegane Optionen. Möchten Sie unsere pflanzliche Speisekarte sehen?"]
+    },
+    "parken": {
+        "patterns": ["parken", "parkplatz", "wo parken", "parkmöglichkeit", "parkhaus"],
+        "responses": ["Wir haben einen eigenen Parkplatz hinter dem Gebäude. Die ersten 2 Stunden sind für Gäste kostenlos."]
+    },
+    "toilette": {
+        "patterns": ["toilette", "wc", "waschraum", "bad", "wo ist die toilette"],
+        "responses": ["Die Toiletten befinden sich rechts hinten neben der Bar. Rollstuhlgerechte Toiletten sind ebenfalls vorhanden."]
+    },
+    "wifi": {
+        "patterns": ["wifi", "wlan", "internet", "kostenloses internet", "netzwerk"],
+        "responses": ["Wir bieten kostenfreies WLAN an. Das Netzwerk heißt 'Gast_Restaurant' und das Passwort ist 'Willkommen123'."]
+    },
+    "kinder": {
+        "patterns": ["kinder", "kindergericht", "kinderspeise", "baby", "kindersitz", "wickelraum"],
+        "responses": ["Wir haben eine Kinderspeisekarte und Hochstühle verfügbar. Der Wickelraum befindet sich neben den Toiletten."]
+    },
+    "hund": {
+        "patterns": ["hund", "hund erlaubt", "hund mitbringen", "haustier", "hundefreundlich"],
+        "responses": ["Hunde sind in unserem Außenbereich willkommen. Im Innenbereich dürfen nur Assistenzhunde mitgebracht werden."]
+    },
+    "zahlung": {
+        "patterns": ["kreditkarte", "ec-karte", "bar zahlen", "paypal", "rechnung teilen", "getrennt zahlen"],
+        "responses": ["Wir akzeptieren Bar, EC-Karte und alle gängigen Kreditkarten. Getrennte Rechnungen sind kein Problem."]
+    },
+    "events": {
+        "patterns": ["feier", "geburtstag", "hochzeit", "firma", "gruppe", "veranstaltung"],
+        "responses": ["Wir organisieren gerne Veranstaltungen. Für wie viele Personen und zu welchem Anlass planen Sie?"]
+    },
+    "empfehlung": {
+        "patterns": ["empfehlung", "was ist gut", "speziell", "hausgericht", "beliebt", "klassiker"],
+        "responses": ["Unser Chef empfiehlt heute das Rindergulasch mit Spätzle. Auch sehr beliebt ist unsere vegetarische Lasagne."]
+    },
+    "zutaten": {
+        "patterns": ["zutaten", "herkunft", "regional", "bio", "frisch", "hausgemacht"],
+        "responses": ["Wir verwenden überwiegend regionale und saisonale Zutaten. Viele Produkte kommen von Bauern aus der Umgebung."]
+    },
+    "öffnungszeiten": {
+        "patterns": ["öffnungszeiten", "wann geöffnet", "wann habt ihr auf", "geschlossen", "ruhetag"],
+        "responses": ["Wir haben täglich von 11:00 bis 22:00 Uhr geöffnet, sonntags ab 12:00 Uhr. Montags ist Ruhetag."]
+    },
+    "bestellen": {
+        "patterns": ["bestellen", "lieferung", "nach hause liefern", "take away", "abholen"],
+        "responses": ["Wir liefern innerhalb von 5km. Bitte geben Sie Ihre Adresse an. Abholung ist ebenfalls möglich."]
+    },
+    "speisekarte": {
+        "patterns": ["speisekarte", "menü", "karte", "was gibt es zu essen", "gerichte"],
+        "responses": ["Hier ist unsere aktuelle Speisekarte: [LINK ZUR SPEISEKARTE]"]
+    },
+    "sprache": {
+        "patterns": ["englisch", "deutsch", "sprache", "verstehen", "sprechen sie"],
+        "responses": ["Unser Personal spricht Deutsch und Englisch. Brauchen Sie eine andere Sprachhilfe?"]
+    },
+    "beschwerde": {
+        "patterns": ["beschwerde", "probleme", "unzufrieden", "beanstandung", "reklamation"],
+        "responses": ["Es tut uns leid, dass Sie unzufrieden sind. Bitte lassen Sie uns wissen, wie wir es besser machen können."]
+    },
+    "lob": {
+        "patterns": ["lob", "ausgezeichnet", "super", "toll", "lecker", "empfehlen"],
+        "responses": ["Vielen Dank für Ihr Lob! Wir freuen uns, dass es Ihnen bei uns gefällt. Kommen Sie bald wieder!"]
+    }
+}
